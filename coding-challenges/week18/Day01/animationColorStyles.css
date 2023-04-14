@@ -1,0 +1,75 @@
+
+ .blocks {
+    display: inline-block;
+ }
+
+#blockprimary {
+    background-color:rgb(119, 112, 112);
+    color: black;
+}
+
+#blocksecondary
+{
+    background-color: lightsteelblue;
+    color: black;
+}
+
+#blockneutral
+{
+    background-color: aliceblue;
+}
+
+#blockaccent
+{
+    background-color: rgb(134, 209, 235);
+}
+
+#blockgreen{
+    background-color:rgb(60, 179, 113);
+}
+
+#blockred
+{
+    background-color:red;
+}
+
+#blockyellow
+{
+  
+    background-color:orange;
+}
+#blocklightblue
+{
+    background-color:rgb(143, 198, 231);
+}
+
+#blocklightblue ,#blockyellow,#blockred,#blockgreen,#blockaccent,#blockneutral,#blockprimary,#blocksecondary
+{
+    margin-left: 10px;
+    height: 120px;
+    width: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius:3px;
+    outline-style: thin;
+    outline-color:white;
+    border-color: aliceblue;
+    transition-duration:  box-shadow 4s;
+    transition: transform 1s; 
+}
+
+body
+{
+    background-image: linear-gradient(90deg,orange, purple);
+}
+.animation {
+    margin-left:25%;
+    margin-right:15%;
+    margin-top: 5%;
+   
+}
+#blockprimary:hover, #blocksecondary:hover ,#blocklightblue:hover,#blockyellow:hover,#blockred:hover,#blockgreen:hover,#blockaccent:hover,#blockneutral:hover
+{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    transform: scale(1.1);
+  }

@@ -1,0 +1,79 @@
+//variables
+$headerTextColor : #111;
+$font: Monospace;
+$height :400px;
+$width:400px;
+$textColor :white;
+$btnColor:#a7eba7;
+$btnwidth: 100px;
+$btnHeight: 40px;
+
+nav { 
+  top: 20;
+  width: 100%;
+  font-weight: bold;
+  ul {
+    padding: 15px;
+    li {
+      display: inline;
+      font-family: $font;
+      font-size: 19px;
+      a {
+        color: $headerTextColor ;
+        padding: 14px;
+      }
+    }
+  }
+}
+
+.navbarLeftItem
+{
+  float: left;
+  padding-top: 25px;
+  
+}
+.navbarRightItem
+{
+  float:right;
+  margin: 20px; 
+}
+.img{
+
+ height: $height;
+ width: $width;
+margin-right: 60px;
+
+}
+.header
+{
+  color: $headerTextColor ;
+  font-family: $font;
+}
+
+@mixin flexCenter{
+  display: flex;
+  margin-top: 80px;
+ }
+
+.boxItem
+{
+  @include flexCenter;
+
+}
+
+.content
+{
+    margin: 80px;
+    padding-right: 60px;
+ 
+}
+
+button 
+{
+  background-color: $btnColor;
+  height: $btnHeight;
+  border-radius: 6px;
+  border-style: none;
+  width: $btnwidth;
+  color: $textColor;
+}

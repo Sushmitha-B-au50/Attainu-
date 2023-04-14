@@ -1,0 +1,17 @@
+.bg {
+    background-color: rgb(232, 235, 240);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding-right: 35px;
+    font-family: Sans-serif;
+    width: 700px;
+    Height:550px;
+    text-align: center;
+}
+h1
+{
+
+    color: orange;
+    padding-top: 50px;
+}

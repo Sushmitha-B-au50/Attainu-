@@ -1,0 +1,26 @@
+
+
+
+
+/* .container {
+  display: inline-block;
+  box-sizing: border-box;
+} */
+.container
+{
+  display: inline-table;
+}
+
+.tblright
+{
+  float: right;
+  width:450px;
+ 
+} 
+.tblleft
+{
+  width:450px;
+  float: left;
+}
+
+

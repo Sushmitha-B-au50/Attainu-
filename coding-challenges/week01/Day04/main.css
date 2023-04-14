@@ -1,0 +1,15 @@
+.header
+{
+     color:  rosybrown;
+     /* text-align: center; */ 
+}
+
+
+.flower{
+border-radius: 5px;
+width:100%;
+}
+
+.btn {
+    margin-top: 10px;
+}

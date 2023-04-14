@@ -1,0 +1,86 @@
+<<<<<<< HEAD
+
+Document the key differences between NoSQL and SQL Databases
+
+
+->SQL - structured Query Language                      No SQL- NO Structured Query Language
+ 
+    
+   1.It consists of tables -rows and .columns              1.It consists of document and json data
+   2.These databases are best suited for complex queries    2.These databases ae not good for complex queries
+   3.These databses have fixed  schema                      3. It have dynamic schema
+
+
+2.advantages of SQL 
+
+-> Speed
+-> You can easily perform retrieval of data subsets within a database, 
+with SQL. Select, insert, alter, delete, update, 
+and add truncate are some of the most used elements
+
+disadvantagesof sql 
+Complex Interface – 
+SQL has a difficult interface that makes few users uncomfortable while dealing with the database.
+
+
+advantages of NOSQL
+
+1.NoSQL databases are highly flexible as they can store and combine any type of data 
+2.NoSQL databases allow you to dynamically update the schema
+
+disadvantages of NoSql
+Backups are a drawback in NoSQL databases
+
+real world application of NOSQLdatabase
+1.A NoSQL database enables ad platforms to track user attributes 
+and also access ads to place extremely quickly, increasing the 
+probability of a click. Examples of ad targeting platforms utilizing
+ NoSQL include those from AOL, Mediamind and PayPal
+
+2.Platforms, such as Snapchat and Instagram, make use of SQL to store the profile information of users. The Structured Query Language allows them to update the database of their app when 
+users create new posts or share photos, and it also 
+facilitates the recording of messages, enabling users to 
+=======
+
+Document the key differences between NoSQL and SQL Databases
+
+
+->SQL - structured Query Language                      No SQL- NO Structured Query Language
+ 
+    
+   1.It consists of tables -rows and .columns              1.It consists of document and json data
+   2.These databases are best suited for complex queries    2.These databases ae not good for complex queries
+   3.These databses have fixed  schema                      3. It have dynamic schema
+
+
+2.advantages of SQL 
+
+-> Speed
+-> You can easily perform retrieval of data subsets within a database, 
+with SQL. Select, insert, alter, delete, update, 
+and add truncate are some of the most used elements
+
+disadvantagesof sql 
+Complex Interface – 
+SQL has a difficult interface that makes few users uncomfortable while dealing with the database.
+
+
+advantages of NOSQL
+
+1.NoSQL databases are highly flexible as they can store and combine any type of data 
+2.NoSQL databases allow you to dynamically update the schema
+
+disadvantages of NoSql
+Backups are a drawback in NoSQL databases
+
+real world application of NOSQLdatabase
+1.A NoSQL database enables ad platforms to track user attributes 
+and also access ads to place extremely quickly, increasing the 
+probability of a click. Examples of ad targeting platforms utilizing
+ NoSQL include those from AOL, Mediamind and PayPal
+
+2.Platforms, such as Snapchat and Instagram, make use of SQL to store the profile information of users. The Structured Query Language allows them to update the database of their app when 
+users create new posts or share photos, and it also 
+facilitates the recording of messages, enabling users to 
+>>>>>>> be104beaf7b75c608e936e12a3d67e92d418390f
+retrieve messages later.

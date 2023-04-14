@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>signup</title>
+        <link href="signUpStyles.css" rel="Stylesheet">
+    </head>  
+<body>
+  <div class="signup">
+<h1> Sign Up </h1>
+<form>
+  <button id="roundbtn">1 </button>
+  <p> Your Basic Info</p>
+  <br/> <br/>
+  <label class="label" for="name">Name:</label> 
+  <input  class="inputField" type="text" id="name" name="username" minlength="8" pattern="[A-Za-z]"  title="please enter characters only" required><br><br>
+  <label class="label" for="email">Email:</label>
+  <input  class="inputField" type="email" id="email" name="email" required><br><br>
+  <label class="label" for="Password">Password:</label> 
+  <input  class="inputField" type="Password" id="Password" name="Password" minlength="8"  required><br><br>
+  <label class="label"  for="age">Age</label>
+  <br>
+  <input class="radio"  type="radio" id="underage" value="underage" name="age">
+  <label for="underage">Under 13</label><br>
+  <input class="radio"  type="radio" id="overage" value="overage" name="age">
+  <label for="overage">Over 13</label><br>
+<br/> <br/>
+<button id="roundbtn">2 </button>
+  <p> Your Profile</p>
+  <br/> <br/>
+  <label class="label" for="name">Bio:</label> 
+  <input  type="text" id="Bio" name="Bio" required><br><br>
+  <label class="label" for="jobrole">Job Role:</label> <br>
+<select class ="dropdown"  name="dropdown">
+    <optgroup label="Web">
+      <option value="0"> Front-End Developer </option>
+      <option value="1">PHP Developer</option>
+      <option value="2">Python Developer</option>
+      <option value="3">Rails Developer</option>
+      <option value="4">Web Designer</option>
+      <option value="5">WordPress Developer</option>
+    </optgroup>
+    <optgroup label="Mobile">
+      <option value="6">Android Developer</option>
+      <option value="7">IOS Developer</option>
+      <option value="8">Mobile Designer</option>
+    </optgroup>
+    <optgroup label="Business">
+      <option value="9">Business Owner</option>
+      <option value="10">Freelancer</option>
+    </optgroup>
+</select> <br> <br>
+<label class="label" for="Interest">Interest:</label><br> 
+  <input type="checkbox" name="chkInterest">
+  <label class="container">Development</label>
+  <span class="checkmark"></span>
+<br>
+  <input type="checkbox"  name="chkInterest">
+  <label class="container">Design</label>
+  <span class="checkmark"></span>
+<br>
+  <input type="checkbox"  name="chkInterest">
+  <label class="container">Business</label>
+  <span class="checkmark"></span>
+<br> <br> <br> 
+  <input id="subbtn" type="submit" value="Sign Up">
+</form>
+</div>
+</body>
+</html>

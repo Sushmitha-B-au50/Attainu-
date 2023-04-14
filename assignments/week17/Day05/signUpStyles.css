@@ -1,0 +1,76 @@
+
+h1
+{
+   font-family: Sans-serif;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: rgb(232, 235, 240);
+    padding-top: 25px;
+}
+.signup {
+    background-color: rgb(232, 235, 240);
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 35%;
+    padding-left: 35px;
+    font-family: Sans-serif;
+    margin-left: 35%;
+    Height:950px;
+    padding-right: 35px;
+}
+
+#roundbtn {  
+    background-color:rgb(60, 179, 113);
+    border-color:rgb(163, 219, 189);
+    border-radius: 50px;
+    border-style: none;
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+}
+
+p {
+    display: inline;
+}
+
+.label {
+    font-family: Sans-serif;
+}
+.inputField {
+    margin-top: 6px;
+    display: block;
+    padding-left: 20px;
+    background-color: rgb(213, 218, 228);
+    height: 35px;
+    width: 300px;
+    border-style: none;
+    border-color: rgb(247, 249, 252);
+   
+}
+#Bio {
+display: block;
+height:80px;
+width: 300px;
+border-style: none;
+background-color: rgb(213, 218, 228);
+padding-top :25px;
+}
+
+.dropdown {
+    border-style: none;
+    border-color: rgb(247, 249, 252);
+    background-color: rgb(213, 218, 228);
+    height: 35px;
+    width: 300px;
+    color:rgb(128, 133, 141)
+}
+
+#subbtn 
+{
+    background-color:rgb(60, 179, 113);
+    border-radius: 5px;
+    border-style: none;
+    height: 45px;
+    width: 350;
+    color: aliceblue;
+
+}

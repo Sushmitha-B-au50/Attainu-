@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   </head>
+<body>
+ <div class=" container d-flex justify-content-center">
+        <div class="m-4 p-3 align-self-center border border-light border border-2 rounded " style="width:350px">
+            <h2 class="pl-0 pt-2 pb-2">Credit Card Payment
+        </h2>
+        <hr class="border border-1 p-0">    
+        <form class="m-2 pl-3 pt-2">
+            <div>
+                <div class="form-group">
+                  <label class="mb-1 pb-2" for="CName">Card Holder's Name</label>
+                  <input  type="text" class="form-control mb-3 pb-2" id="CName">
+                  </div>
+                <div class="form-group">
+                  <label class="mb-1 pb-2" for="CNumber">Card Number</label>
+                  <input type="text" class="form-control mb-3 pb-2" id="CNumber">
+                </div>
+                <div class="form-group">
+                    <label class="mb-1 pb-1" for="CExpDate">Card Exp.Date</label>
+                    <div class="row">
+                        <div class="col-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                            </select> 
+                        </div>
+                        <div class="col-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected value="1">2018</option>
+                                <option value="2">2019</option>
+                                <option value="3">2020</option>
+                                <option value="4">2021</option>
+                                <option value="5">2022</option>
+                            </select> 
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" id="CVC" placeholder="CVC">
+                        </div>
+                    </div>   
+                    <div class="form-group  mt-3 pb-2">
+                        <label class="mb-1 pb-2" for="CNumber">Amount</label>  
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input type="text" style="text-align:right" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="39">
+                    <span class="input-group-text">.00</span>
+                </div>
+                </div>
+                <hr class="border border-1 p-0">    
+                   <div class="row">
+                        <div class="col-6">
+                            <button type="submit" class="btn btn-light btn-lg float-start">Cancel</button>  
+                        </div>
+                        <div class="col-6">
+                            <button type="submit" class="btn btn-success btn-lg float-end">Submit</button> 
+                        </div>
+                  </div>
+        </form>
+        </div>
+    </div>
+</div>
+    </body>
+    </html>
+
+
+
+
+ 

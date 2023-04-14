@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  height:450px;
+     object-fit: cover; 
+}
+
+img
+{
+  width: 125px;
+  height:125px;
+}

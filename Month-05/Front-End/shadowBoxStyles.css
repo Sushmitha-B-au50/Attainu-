@@ -1,0 +1,55 @@
+.card 
+{
+    margin: 30px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
+.card-text
+{
+    margin: 0%;
+}
+.tg{
+    margin-top: 30px;
+}
+.bg
+{
+    background-color: rgb(158, 198, 206);
+  
+}
+.items
+{
+    margin-left: 150px;
+    display:inline-flex;
+}
+.animation {
+    margin-left:25%;
+    margin-right:15%;
+    margin-top: 5%;
+   
+}
+.card:hover
+{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    transform: scale(1.1);
+    border: 3px solid rgb(60, 179, 113);
+  }
+  #subbtn 
+{
+    background-color:rgb(60, 179, 113);
+    border-radius: 5px;
+    border-style: none;
+    height: 45px;
+    width: 150px;
+    color: aliceblue;
+
+}
+
+ /* li{  
+    background-color:rgb(60, 179, 113);
+    border-radius: 10px;
+    border-style: none;
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+} */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram</title>
+        <link href="instagramLayout.css" rel="Stylesheet">
+</head>
+<body>
+    <h1>Instagram</h1>
+    <div class="main">
+    <table class ="headerInfo">
+        <tr>
+            <td>
+            <img  id="profile" src="https://images.unsplash.com/photo-1498431274692-9b00704fb2a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"  alt="profilepic">
+            </td>
+           
+        <td  class="item"><p  id="profileName" >Vernoica_</p> 
+            <p>164 posts</p> 
+            <p>Hi!, I'm vernoica </p>
+        </td>
+          <td>
+            <p id="editOption">Edit Profile</p> 
+           <p id="followers" >188 followers</p>
+           <p> from london</p>
+        </td>
+        <td><img id="icon"src="data:image/png;base64,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" alt="icon">
+            <p id="following" >298 followers</p>
+            <p>live </p>
+        </td>
+        </tr>
+    </table>
+    <div class="container">
+    <img src="https://images.unsplash.com/photo-1525309973135-218d5494edee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGluc3RhZ3JhbSUyMGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"  alt="img1">
+    <img src="https://images.unsplash.com/photo-1665686307516-1915b9616526?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img2">
+    <img src="https://cdn.pixabay.com/photo/2019/07/30/05/53/dog-4372036__340.jpg" alt="img3">
+    <img src="https://media.istockphoto.com/id/928175916/photo/woman-praying-and-free-bird-enjoying-nature-on-sunset-background-hope-concept.jpg?b=1&s=170667a&w=0&k=20&c=0x7Gnm6-wKbYL3lw97BzLMFTbyNTBP5EMn1k1BrB0eM=" alt="img4">
+    <img src="https://media.istockphoto.com/id/523538287/photo/times-square.jpg?s=612x612&w=0&k=20&c=gZMU_YAcKxkwUCurZkkAjYOdZfnxhcA_sZnpHMx703A=" alt="img5">
+    <img src="https://images.unsplash.com/photo-1561063736-50d0173b7824?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bnNldCUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="img6">  
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLeTt1pYT46IzhT20ZTFgKUzx_UtCJXFXyXQ&usqp=CAU" alt="img7">    
+    <img src="https://media.istockphoto.com/id/1266167613/photo/getting-away-from-it-all.jpg?s=612x612&w=0&k=20&c=NI1ahH6ArorJV6TX-IYl2kPkAmJHBO7tkR6Ny1CwOqU=" alt="img8">
+    <img src="https://media.istockphoto.com/id/1093694146/photo/famous-touristic-town-of-liguria-with-beaches-and-colorful-houses.jpg?s=612x612&w=0&k=20&c=VKf_X_946Vazl5pPYOyMmrOM6cC61ESSLdUmQUnQMwE=" alt="img9">
+    </div>
+ </div>
+ </div>
+</body>
+</html>

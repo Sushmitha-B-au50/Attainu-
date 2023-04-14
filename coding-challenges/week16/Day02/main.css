@@ -1,0 +1,56 @@
+.header
+{
+     color:  red;
+     text-align: center; 
+}
+
+.subheader
+{
+     color: green;
+}
+
+.benefits
+{
+     color:  rgb(29, 12, 12);
+}
+
+
+.benefits1
+{
+     color:  rgb(29, 12, 12);
+
+}
+
+.benefits2
+{
+     color:  rgb(29, 12, 12);
+}
+
+
+.subheader1
+{
+     color: darkgoldenrod;
+}
+.subheader2
+{
+     color: orange;
+}
+
+.subheader3
+{
+     color: blue;
+}
+
+.subheader4
+{
+     color: lightcoral;
+}
+.flower{
+border-radius: 5px;
+width:100%;
+}
+subheader3
+
+.btn {
+    margin-top: 10px;
+}

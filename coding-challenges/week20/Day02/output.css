@@ -1,0 +1,59 @@
+nav {
+  top: 20;
+  width: 100%;
+  font-weight: bold;
+}
+nav ul {
+  padding: 15px;
+}
+nav ul li {
+  display: inline;
+  font-family: Monospace;
+  font-size: 19px;
+}
+nav ul li a {
+  color: #111;
+  padding: 14px;
+}
+
+.navbarLeftItem {
+  float: left;
+  padding-top: 25px;
+}
+
+.navbarRightItem {
+  float: right;
+  margin: 20px;
+}
+
+.img {
+  height: 400px;
+  width: 400px;
+  margin-right: 60px;
+}
+
+.header {
+  color: #111;
+  font-family: Monospace;
+}
+
+.boxItem {
+  display: flex;
+  margin-top: 80px;
+}
+
+.content {
+  margin: 80px;
+  padding-right: 60px;
+}
+
+button {
+  background-color: #a7eba7;
+  height: 40px;
+  border-radius: 6px;
+  border-style: none;
+  width: 100px;
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */

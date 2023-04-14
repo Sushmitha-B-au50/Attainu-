@@ -1,0 +1,91 @@
+<<<<<<< HEAD
+Attainu Question ID: 238
+Setup Atlas account and connect atlas with mongo shell.
+Do all the operations
+Create db
+Create collection
+Create documents
+Read documents
+Update documents
+Delete documents
+Write mongo queries for all the the above operations using any sample data in a txt file and 
+upload.
+
+Create db
+use SampleDB
+
+Create collection
+db.createCollection("posts")
+
+Create documents
+db.posts.insertOne({
+  title: "Post Title",
+  body: "hello",
+  category: "News",
+  likes: 1,
+  tags: ["news", "events"],
+  date: Date()
+})
+
+To insert multiple documents at once, 
+use the insertMany() method.
+
+Read Documents
+var cursor = from planet in coll.AsQueryable()
+             where planet["hasRings"] == true
+             select planet;
+
+updateDocument
+db.posts.find( { title: "Post Title 1" } ) 
+
+The updateMany() - method will update all documents that match the provided query.
+
+delete document
+db.posts.deleteOne({ title: "Post Title 5" })
+db.posts.deleteMany({ category: "Technology" })
+=======
+Attainu Question ID: 238
+Setup Atlas account and connect atlas with mongo shell.
+Do all the operations
+Create db
+Create collection
+Create documents
+Read documents
+Update documents
+Delete documents
+Write mongo queries for all the the above operations using any sample data in a txt file and 
+upload.
+
+Create db
+use SampleDB
+
+Create collection
+db.createCollection("posts")
+
+Create documents
+db.posts.insertOne({
+  title: "Post Title",
+  body: "hello",
+  category: "News",
+  likes: 1,
+  tags: ["news", "events"],
+  date: Date()
+})
+
+To insert multiple documents at once, 
+use the insertMany() method.
+
+Read Documents
+var cursor = from planet in coll.AsQueryable()
+             where planet["hasRings"] == true
+             select planet;
+
+updateDocument
+db.posts.find( { title: "Post Title 1" } ) 
+
+The updateMany() - method will update all documents that match the provided query.
+
+delete document
+db.posts.deleteOne({ title: "Post Title 5" })
+db.posts.deleteMany({ category: "Technology" })
+>>>>>>> be104beaf7b75c608e936e12a3d67e92d418390f

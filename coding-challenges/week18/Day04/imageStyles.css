@@ -1,0 +1,26 @@
+img{
+   
+    height: 250px;
+    width:25px;
+    flex-basis: 30%;
+    margin: 20px;
+    transition-duration:  box-shadow 4s;
+    transition: transform 1s;  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+   text-align: center;
+}
+
+
+img:hover {
+    cursor :pointer;
+    box-shadow: 10px 10px 5px #c2cccf;
+    transform: scale(1.1);
+    }

@@ -1,0 +1,20 @@
+
+.blueButton
+{
+     background-color:   rgba(38, 109, 216, 0.575);
+     border-radius: 5px;
+     height: 28px;
+     border-color:rgba(152, 184, 233, 0.575);
+     color: aliceblue;
+     width:80px;
+}
+
+.grayButton
+{
+     background-color:  rgb(110, 129, 148);
+     border-radius: 5px;
+     height: 28px;
+     border-color:rgb(134, 145, 155);
+     color: aliceblue;
+     width:80px;
+}
